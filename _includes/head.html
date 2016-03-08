@@ -1,12 +1,34 @@
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<!-- META DATA -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta charset="UTF-8">
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="keywords" content="development, software, custom software, machine learning, data science, data mining, elixir, java"/>
+<meta name="author" content="GoodGrind"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+<!-- GOOGLE WEB FONTS INCLUDE -->
+<link href='http://fonts.googleapis.com/css?family=Oswald|Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+<!-- JARVIS THEME STYLESHEETS -->
+
+<link rel="stylesheet" href="{{ "/css/skeleton.css" | prepend: site.baseurl }}" type="text/css">
+<link rel="stylesheet" href="{{ "/css/reset.css" | prepend: site.baseurl }}" type="text/css">    
+<link rel="stylesheet" href="{{ "/css/style.css" | prepend: site.baseurl }}" type="text/css">
+<link rel="stylesheet" href="{{ "/css/social.css" | prepend: site.baseurl }}" type="text/css">             
+<link rel="stylesheet" href="{{ "/css/flexslider.css" | prepend: site.baseurl }}" type="text/css">	
+<link rel="stylesheet" href="{{ "/css/prettyPhoto.css" | prepend: site.baseurl }}" type="text/css" media="screen"/><!-- PrettyPhoto -->	
+<link rel="stylesheet" href="{{ "/css/font-awesome.css" | prepend: site.baseurl }}" type="text/css"/><!-- PrettyPhoto -->    
+<link rel="stylesheet" href="{{ "/css/shortcodes.css" | prepend: site.baseurl }}" type="text/css"/> 	
+<link rel="stylesheet" href="{{ "/css/media.css" | prepend: site.baseurl }}"><!-- Media Queries -->
+<link id="primary_color_scheme" href="{{ "/css/colors/yellow.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css"/>      
+
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+
 </head>

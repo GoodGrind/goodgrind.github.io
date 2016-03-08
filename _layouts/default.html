@@ -1,20 +1,19 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en">  <!--<![endif]-->
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+{{ content }}
 
-    {% include header.html %}
+<div id="back-to-top"><a href="#">Back to Top</a></div>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
 
-    {% include footer.html %}
-
-  </body>
+	{% include copyright.html %}
+	</div><!-- END PAGE WRAP -->
+{% include footer_script.html %}
+</body>
 
 </html>
