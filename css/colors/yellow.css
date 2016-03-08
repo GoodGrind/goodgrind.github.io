@@ -61,6 +61,7 @@ nav.colored, nav.light.colored,
 /*========== C O L O R    S K I N S =============*/
 
 a,
+.head-highlight,
 nav.light .main-menu a:hover, 
 nav.dark .main-menu a:hover,
 nav.light .main-menu li.active a,

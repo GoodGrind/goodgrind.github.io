@@ -136,6 +136,9 @@ a {
 	-o-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
+.head-highlight {
+	color: #FFD600;
+}
 a:hover, a:focus {
 	color: #666666;
 }
