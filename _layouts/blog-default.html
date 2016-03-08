@@ -26,31 +26,8 @@ layout: default
 				{{ content }}
 			</div> 
 			
-			<div class="four columns">
-			
-				<div class="sidebar">
-					
-					<div class="widget">
-                    <div class="widget-title">Our Twitter</div>
-                      <ul id="twitter-feed" class="twitter styled-list"></ul>
-                    </div>
-				
-					<div class="widget tags">
-						<div class="widget-title">Tags</div>
-						<ul class="tags-list styled-list">
-							<li><a href="#">Design</a></li>
-							<li><a href="#">Photography</a></li>
-							<li><a href="#">Branding</a></li>
-							<li><a href="#">Lifestyle</a></li>
-							<li><a href="#">Video</a></li>
-							<li><a href="#">Tours</a></li>
-							<li><a href="#">Places</a></li>
-							<li><a href="#">App</a></li>                                                        
-						</ul>
-					</div>
-					
-				</div>
-				
+			<div class="four columns">		
+				{% include sidebar.html %}
 			</div>
 						
 		</div>
