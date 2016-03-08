@@ -15,12 +15,12 @@
 		<div class="twelve columns">            		
 			<!-- START NAVIGATION MENU ITEMS -->
 			<ul class="main-menu large nav" id="nav">
-				<li><a href="{{ "/" | prepend: site.baseurl }}#home">Home</a></li>                
-				<li><a href="{{ "/" | prepend: site.baseurl }}#about">About</a></li>
-				<li><a href="{{ "/" | prepend: site.baseurl }}#team">Team</a></li>
-				<li><a href="{{ "/" | prepend: site.baseurl }}#services">Services</a></li>
-				<li><a href="{{ "/blog/" | prepend: site.baseurl }}">Blog</a></li>                  
-				<li><a href="{{ "/" | prepend: site.baseurl }}#contact">Contact</a></li>
+				<li><a href="{{ site.index_path | prepend: site.baseurl }}#home">Home</a></li>
+				<li><a href="{{ site.index_path | prepend: site.baseurl }}#about">About</a></li>
+				<li><a href="{{ site.index_path | prepend: site.baseurl }}#team">Team</a></li>
+				<li><a href="{{ site.index_path | prepend: site.baseurl }}#services">Services</a></li>
+				<li><a href="{{ site.blog_path | prepend: site.baseurl }}">Blog</a></li>
+				<li><a href="{{ site.index_path | prepend: site.baseurl }}#contact">Contact</a></li>
 			</ul>
 			<!-- END NAVIGATION MENU ITEMS -->				
 		</div><!-- END TWELVE COLUMNS -->	
