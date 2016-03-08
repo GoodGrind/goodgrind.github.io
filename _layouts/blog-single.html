@@ -12,9 +12,9 @@ layout: blog-default
 	<div class="post-tags">
 		<i class="icon-tags"></i>
 		<ul>
-			<li><a href="#">Design</a></li>
-			<li><a href="#">Branding</a></li>
-			<li><a href="#">Typography</a></li>
+			{% for tag in page.tags %}
+			<li><a href="#">{{ tag }}</a></li>
+			{% endfor %}
 		</ul>
 	</div>
 </div>
