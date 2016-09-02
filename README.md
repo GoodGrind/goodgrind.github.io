@@ -1,6 +1,8 @@
 TODO:
 =====
 
+ - Make contact form do it's job
+ - Add logo to site
  - Display team info based on data from config/data file instead of hard-coded html
  - Fix info/text about members
  - Test pagination
