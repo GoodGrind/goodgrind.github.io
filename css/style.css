@@ -136,9 +136,6 @@ a {
 	-o-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
-.head-highlight {
-	color: #FFD600;
-}
 a:hover, a:focus {
 	color: #666666;
 }
@@ -324,6 +321,9 @@ nav .container .twelve.columns {
 }
 .main-menu.large, .logo.large {
 	height: 80px;
+}
+.logo.large img {
+	height:60px;
 }
 .logo a {
 	display: block;

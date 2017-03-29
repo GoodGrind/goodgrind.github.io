@@ -125,6 +125,12 @@ h1 {
 	font-size:24px;
 	min-width:auto;
 }
+select.selectnav::-ms-expand {
+	display: none;
+}
+select.selectnav::-moz-selection {
+	display: none;
+}
 
 #home {
 	height: auto !important;
@@ -288,6 +294,7 @@ a#button-newsletter {
 	margin-top: 13px;
 	font-size:24px;
 	min-width:auto;
+	-moz-appearance: none;
 }
 #portfolio-wrap .one-third {
     width: 100%;
