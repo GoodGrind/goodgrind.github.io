@@ -1,10 +1,10 @@
 /*========== B A C K G R O U N D    S K I N S =============*/
 
 ::-moz-selection {
- background: steelblue;
+ background: #5793d9;
 }
 ::selection {
-	background: steelblue;
+	background: #5793d9;
 }
 
 nav.colored, nav.light.colored,
@@ -39,18 +39,18 @@ nav.colored, nav.light.colored,
 .team-member:hover .team-desc,
 .service-box .service-icon,
 .modal .close {
-	background-color: steelblue;
+	background-color: #5793d9;
 }
 
 /*========== B O X   S H A D O W    S K I N S =============*/
 
 .title h1,
 .service-box .service-icon {
-	box-shadow:0px 0px 0px 3px steelblue;
+	box-shadow:0px 0px 0px 3px #5793d9;
 }
 
 .tab a.selected {
-    box-shadow: 0px -3px 0px 0px steelblue;
+    box-shadow: 0px -3px 0px 0px #5793d9;
 }
 
 
@@ -61,7 +61,7 @@ nav.colored, nav.light.colored,
 /*========== C O L O R    S K I N S =============*/
 
 a,
-.highlight,
+.head-highlight,
 nav.light .main-menu a:hover, 
 nav.dark .main-menu a:hover,
 nav.light .main-menu li.active a,
@@ -76,7 +76,7 @@ nav.dark .main-menu li.active a,
 .pages li a:hover,
 .home3 .slabtextdone .slabtext.second-child,
 .service-box:hover .service-icon {
-	color:steelblue;
+	color:#5793d9;
 }
 
 
@@ -92,13 +92,13 @@ nav.dark .main-menu li.active a,
 blockquote p,
 .pullquote.align-right,
 .pullquote.align-left {
-	border-color: steelblue;
+	border-color: #5793d9;
 }
 
 
 /*========== H O M E,  C O L O R   B L O C K    S K I N S =============*/
 .home-gradient, .color-block {
-	background-color:steelblue;
+	background-color:#5793d9;
 	background: -moz-radial-gradient(center center,circle cover,#7CBEDD  0%, #18619B 100%);	/* FF3.6+ */
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#7CBEDD ), color-stop(100%,#18619B));	/* Chrome,Safari4+ */
     background: -webkit-radial-gradient(center center,circle cover,  #7CBEDD  0%,#18619B 100%);	/* Chrome10+,Safari5.1+ */
@@ -107,5 +107,10 @@ blockquote p,
     background: radial-gradient(center center,circle cover,  #7CBEDD  0%,#18619B 100%);	/* W3C */
 }
 
+.copyright {
+	color: white;
+}
 
-
+.head-highlight {
+	/*background-color: white;*/
+}
