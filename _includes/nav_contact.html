@@ -21,7 +21,7 @@
 			<div class="contact-box">
 				<!-- START CONTACT FORM -->
 				<div id="contact-form">			
-					<form action="#" method="post">
+					<form action="https://formspree.io/{{ site.email }}" method="post">
 
 						<div id="contact-input">
 							<!--[if IE]>
@@ -43,6 +43,7 @@
 					<![endif]-->
 							<textarea name="contact[message]" id="message" cols="39" rows="4" placeholder="Your Message"></textarea>
 						</div>
+						<input type="hidden" name="_subject" value="Contact from website" />
 						<div id="contact-submit">
 							<div>
 								<input name="submit" type="submit" id="submit" tabindex="5" value="Post Comment" class="comment-submit small button">

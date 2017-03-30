@@ -303,57 +303,6 @@ function home_parallax() {
 	  
 	 	   
 
-
-
-	 
-/*----------------------------------------------------*/
-// CONTACT FORM WIDGET
-/*----------------------------------------------------*/
-
-    $("#contact form").submit(function()
-    {
-        var form = $(this);
-        var formParams = form.serialize();
-        $.ajax(
-        {
-            url: 'contact.php',
-            type: 'POST',
-            traditional: true,
-            data: formParams,
-            success: function(data){
-                var response = jQuery.parseJSON(data);				
-                if(response.success)
-                {   $('#contact form').slideUp().height('0');
-                    $('#contact .result').append(mailSuccess);
-                }
-                else
-                {
-				   for(i=0; i<response.errors.length; i++){
-					 if(response.errors[i].error == 'empty_name')  {                          
-					   mailResult.append(nameError);
-					 }
-					 if(response.errors[i].error == 'empty_email')  {                          
-					   mailResult.append(emailError);
-					 }
-					 if(response.errors[i].error == 'empty_subject')  {                          
-					   mailResult.append(subjectError);
-					 }
-					 if(response.errors[i].error == 'empty_message')  {                          
-					   mailResult.append(messageError);
-					 }
-					 if(response.errors[i].error == 'invalid'){
-						mailResult.append(invalidEmailError);
-					 }
-				   }
-                }
-            }
-        })
-        return false;
-    });
-	
-
-  
-
 /*----------------------------------------------------*/
 // LOAD PROJECT
 /*----------------------------------------------------*/ 
