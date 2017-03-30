@@ -18,6 +18,9 @@ blog_path: "/blog.html"
 	{% include copyright.html %}
 	</div><!-- END PAGE WRAP -->
 {% include footer_script.html %}
+{% if jekyll.environment == 'production' %}
+	{% include analytics.html %}
+{% endif %}
 </body>
 
 </html>
