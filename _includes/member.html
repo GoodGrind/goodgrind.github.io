@@ -1,0 +1,74 @@
+{% assign member = site.data.members[include.name] %}
+<div class="team-member">
+	<!-- START TEAM THUMBNAIL -->  
+	<div class="team-thumb img-wrp">
+
+		<!-- START MEMBER IMAGE --> 
+		<img src="images/team/{{ member.image }}" alt="team">	
+		<!-- END MEMBER IMAGE --> 
+		<!-- START TEAM OVERLAY -->  
+		<div class="team-overlay">
+			<div class="img-overlay"></div>
+			<!-- START OVERLAY CONTENT -->  
+			<div class="overlay-content">                            
+
+				<!-- START MEMBER ROLE --> 
+				<h4>{{ member.role }}</h4>
+				<!-- END MEMBER ROLE --> 
+
+				<!-- START PROFILE LINK --> 
+				<p><a data-toggle="modal" href="#team-{{ include.name }}" class="modal-popup-link view-profile">View Profile</a></p>
+				<!-- END PROFILE LINK -->  
+			</div><!-- END OVERLAY CONTENT -->  
+
+		</div><!-- END TEAM OVERLAY -->          
+	</div><!-- END TEAM THUMBNAIL -->  
+
+	<!-- START TEAM DESCRIPTION -->  
+	<div class="team-desc">
+		<h4>{{ member.full_name }}</h4>
+	</div>  
+	<!-- END TEAM DESCRIPTION -->  
+
+
+
+
+	<!-- START TEAM MEMBER BIO MODAL POPUP  -->
+	<div id="team-{{ include.name }}" class="modal hide fade.in animated fadeIn">
+
+		<!-- START TEAM BIO -->       
+		<div class="member-bio">
+			<div class="container">      
+
+				<!-- START MODAL POPUP CLOSE BUTTON -->                                     
+				<a href="#" class="close" data-dismiss="modal">×</a>
+				<!-- END MODAL POPUP CLOSE BUTTON -->
+
+
+				<!-- START MEMBER NAME AND ROLE --> 
+				<div class="member-role">
+					<h1>{{ member.full_name }}</h1>
+					<h4 class="head-highlight">Founder - CEO</h4>
+				</div>
+				<!-- END MEMBER NAME AND ROLE -->  
+
+
+				<div class="row">
+					<div class="seven columns">
+						<!-- START MEMBER IMAGE --> 
+						<img src="images/team/{{ member.image }}" alt="team">	
+						<!-- END MEMBER IMAGE --> 
+					</div><!-- END COLUMN --> 
+
+					<!-- START MEMBER DESCRIPTION --> 
+					<div class="eight columns member-description">
+						<p class="lead">{{ member.description }}</p>
+
+						<div class="social-icon social-email"><a href="mailto:{{ member.email }}" target="_blank" data-original-title="Email">Email</a></div>
+					</div><!-- END MEMBER DESCRIPTION -->    
+
+				</div><!-- END ROW -->  
+			</div><!-- END CONTAINER --> 
+		</div><!-- END TEAM BIO -->                     
+	</div><!-- END TEAM MEMBER BIO MODAL POPUP -->  
+</div>

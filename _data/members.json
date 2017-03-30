@@ -1,0 +1,18 @@
+{
+	'sloby': {
+		full_name: "Szabolcs Máj",
+		role: "Founder - CEO",
+		image: "szabolcs.jpg",
+		description: "Szabolcs is the Swiss knife in the team. He likes to learn everything from developing web applications to data mining with R to building a virtual server with a continous integration service on it. In his freetime he loves doing Brazilian Jiu-Jitsu, choking out his friends for fun :)",
+		email: "szabolcs.maj@goodgrind.tech"
+
+
+	},
+	'sram': {
+		full_name: "Norber Sram",
+		role: "Founder - CTO",
+		image: "sram.jpg",
+		description: "If you have to say one thing about Norbert, it would be that he LOVES software development. He has a PhD in software engineering and he lifts heavy weights whenever he can",
+		email: "norber.sram@goodgrind.tech"
+	}
+}
