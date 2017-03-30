@@ -1,6 +1,9 @@
 TODO:
 =====
 
+ - Sometimes the carousel/slider on the header part is too narrow. Investigate and fix!
+ - Remove biceps
+ - Change BG to some generic pictures
  - Display team info based on data from config/data file instead of hard-coded html
  - Fix info/text about members
  - Test pagination
