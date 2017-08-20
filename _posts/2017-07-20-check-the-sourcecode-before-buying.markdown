@@ -25,4 +25,4 @@ If I could've had a look on the source code with their "guidance" without taking
 
 Only buy sourcecode if you have seen it and the developers explained it to you. Check for red flags like no CI server, lack of automated testing or signs of bad coding and antipatterns.
 
-Or just pay for the developers to maintain the fucking system without buying it for yourself :)
+Or just pay for the developers to maintain the damn system without buying it for yourself :)
