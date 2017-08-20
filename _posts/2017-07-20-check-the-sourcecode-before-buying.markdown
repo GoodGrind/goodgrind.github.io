@@ -2,7 +2,7 @@
 layout: blog-single
 title: "Before you buy the sourcecode, check the damn source code!"
 date: 2017-07-20 10:41:27 +0100
-tags: business technology
+tags: business technology case-study
 main_image: "code_review.jpg"
 author: szmaj
 ---
