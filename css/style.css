@@ -190,7 +190,6 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	font-weight: 400;
 	margin-bottom: 10px;
-	text-align: center;
 }
 body #load {
 	width: 100%;
@@ -1914,7 +1913,6 @@ a#button-newsletter {
     height: 100% !important;
     position: absolute;
 }
-
-
-
-
+.copyright-logo h1 {
+	text-align: center;
+}
